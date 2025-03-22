@@ -10,5 +10,5 @@ classDiagram
         +Float TotalShoppingCartValue
     }
 
-    User --> Card : owns
+    User --> Card : 
 ```
