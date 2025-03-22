@@ -15,3 +15,5 @@ classDiagram
   
     User --> Card : 
 ```
+
+Link do figma : https://www.figma.com/design/7bOAKXJZZIa9yEFGpg819j/Untitled?node-id=0-1&t=eDThuG2X1v74yIMw-1
