@@ -1,38 +1,14 @@
 ```mermaid
-
 classDiagram
-  class User {
-    -String name
-    -Account account
-    -Feature[] features
-    -Card card
-    -News[] news
-  }
+    class User {
+        +String Name
+        +Float AccountMoney
+    }
 
-  class Account {
-    -String number
-    -String agency
-    -Number balance
-    -Number limit
-  }
+    class Card {
+        +Integer ShoppingCartItems
+        +Float TotalShoppingCartValue
+    }
 
-  class Feature {
-    -String icon
-    -String description
-  }
-
-  class Card {
-    -String number
-    -Number limit
-  }
-
-  class News {
-    -String icon
-    -String description
-  }
-
-  User "1" *-- "1" Account
-  User "1" *-- "N" Feature
-  User "1" *-- "1" Card
-  User "1" *-- "N" News
+    User --> Card : owns
 ```
